@@ -1,0 +1,45 @@
+
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.top_nav_list li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 12px;
+}
+.top_nav_list {
+  float: right;
+  margin-right: 30px;
+  padding-top: 7px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+#sign_in_link {
+  padding: 5px;
+  background-color: #4286f4;
+  border: 2px solid #4286f4;
+  border-radius: 4px;
+}
+#sign_in_link a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 6px;
+}
+.top_nav a {
+  text-decoration: none;
+}
+#gmail_link a:hover, #images_link a:hover {
+  text-decoration: underline;
+}
+#gmail_link a, #images_link a {
+  color: #4d5259;
+}
+#gmail_link a:visited, #images_link a:visited {
+  text-decoration: none;
+  color: grey:
+}
